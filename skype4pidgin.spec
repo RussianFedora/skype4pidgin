@@ -1,6 +1,6 @@
 Name:		skype4pidgin
 Version:	0.0
-Release:	0.2.20111209svn625%{?dist}.R
+Release:	0.2.20111209svn625%{?dist}
 Summary:	Skype plugin for libpurple messengers
 
 Group:		Applications/Internet
