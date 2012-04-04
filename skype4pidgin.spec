@@ -1,12 +1,12 @@
 Name:		skype4pidgin
 Version:	0.0
-Release:	0.2.20111209svn625%{?dist}
+Release:	0.3.20120216svn628%{?dist}
 Summary:	Skype plugin for libpurple messengers
 
 Group:		Applications/Internet
 License:	GPLv3+
 URL:		http://eion.robbmob.com/
-Source0:	%{name}-20111209svn625.tar.bz2
+Source0:	%{name}-20120216svn628.tar.bz2
 Patch0:		%{name}-makefile.patch
 
 BuildRequires:	glib2-devel
@@ -50,6 +50,9 @@ sed -i 's/\r//' README.txt
 
 
 %changelog
+* Wed Apr  4 2012 Arkady L. Shane <ashejn@russianfedora.ru> - 0.0-0.2.20120216svn628.R
+- update to svn628
+
 * Tue Dec 13 2011 Arkady L. Shane <ashejn@russianfedora.ru> - 0.0-0.2.20111209svn625.R
 - update to svn625
 
