@@ -1,20 +1,20 @@
-Name:		skype4pidgin
-Version:	0.0
-Release:	0.3.20120216svn628%{?dist}
-Summary:	Skype plugin for libpurple messengers
+Name:           skype4pidgin
+Version:        0.0
+Release:        0.4.20121031svn641%{?dist}
+Summary:        Skype plugin for libpurple messengers
 
-Group:		Applications/Internet
-License:	GPLv3+
-URL:		http://eion.robbmob.com/
-Source0:	%{name}-20120216svn628.tar.bz2
-Patch0:		%{name}-makefile.patch
+Group:          Applications/Internet
+License:        GPLv3+
+URL:            http://eion.robbmob.com/
+Source0:        %{name}-20121031svn641.tar.bz2
+Patch0:         %{name}-makefile.patch
 
-BuildRequires:	glib2-devel
-BuildRequires:	libX11-devel
-BuildRequires:	gettext
-BuildRequires:	libpurple-devel
-Requires:	libpurple
-Requires:	skype
+BuildRequires:  glib2-devel
+BuildRequires:  libX11-devel
+BuildRequires:  gettext
+BuildRequires:  libpurple-devel
+Requires:       libpurple
+Requires:       skype
 
 %description
 Skype API Plugin for Empathy/Pidgin/libpurple/Adium. Very good to use
@@ -50,7 +50,10 @@ sed -i 's/\r//' README.txt
 
 
 %changelog
-* Wed Apr  4 2012 Arkady L. Shane <ashejn@russianfedora.ru> - 0.0-0.2.20120216svn628.R
+* Wed Oct 31 2012 Arkady L. Shane <ashejn@russianfedora.ru> - 0.0-0.4.20121031svn641.R
+- update to svn641
+
+* Wed Apr  4 2012 Arkady L. Shane <ashejn@russianfedora.ru> - 0.0-0.3.20120216svn628.R
 - update to svn628
 
 * Tue Dec 13 2011 Arkady L. Shane <ashejn@russianfedora.ru> - 0.0-0.2.20111209svn625.R
